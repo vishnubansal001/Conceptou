@@ -1,10 +1,11 @@
-function App() {
+import Router from "./hoc/Router";
 
+function App() {
   return (
-    <p className="text-white">
-      Hey Log
-    </p>
-  )
+    <>
+      <Router />
+    </>
+  );
 }
 
-export default App
+export default App;
