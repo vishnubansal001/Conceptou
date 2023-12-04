@@ -11,11 +11,11 @@ const Why = () => {
           {services?.map((service, index) => (
             <div
               key={index}
-              className="flex flex-col justify-end items-center lg:gap-10 md:gap-8 gap-4 w-full bg-cover bg-no-repeat lg:h-[600px] md:h-[500px] h-[400px] rounded-[50px]"
+              className="flex flex-col justify-end items-center lg:gap-10 md:gap-8 gap-4 w-full bg-cover bg-no-repeat lg:h-[600px] md:h-[500px] h-[400px] rounded-[50px] overflow-y-hidden hover:overflow-y-visible "
               style={{ backgroundImage: `url(${service.pic})` }}
               onClick={() => navigate("/services")}
             >
-              <div className="hover:translate-y-0 translate-y-1/2 transition-all duration-500 ease-in-out w-full h-full hover:backdrop-blur-lg rounded-[50px] flex flex-col justify-around text-white hover:text-white">
+              <div className="overflow-hidden hover:translate-y-0 translate-y-1/2 transition-all duration-700 ease-in-out w-full h-full hover:backdrop-blur-lg rounded-[50px] flex flex-col justify-around text-white hover:text-white">
                 <h1 className="lg:text-4xl md:text-3xl text-xl font-bold">
                   {service.name}
                 </h1>
