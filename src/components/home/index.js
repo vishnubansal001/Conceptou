@@ -5,3 +5,4 @@ export { default as Why } from "./Why.jsx";
 export { default as Recent } from "./Recent.jsx";
 export { default as Vision } from "./Vision.jsx";
 export { default as Social } from "./Social.jsx";
+export { default as About } from "./About.jsx";

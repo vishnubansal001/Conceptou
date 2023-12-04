@@ -1,4 +1,4 @@
-import { Hero, Recent, Social, Vision, Why } from "../components/home";
+import { About, Hero, Recent, Social, Vision, Why } from "../components/home";
 
 const Landing = () => {
   return (
@@ -8,6 +8,7 @@ const Landing = () => {
       <Recent />
       <Vision />
       <Social />
+      <About />
     </>
   );
 };

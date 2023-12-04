@@ -11,7 +11,7 @@ const Why = () => {
           {services?.map((service, index) => (
             <div
               key={index}
-              className="flex flex-col justify-end items-center lg:gap-10 md:gap-8 gap-4 w-full bg-cover bg-no-repeat lg:h-[600px] md:h-[500px] h-[400px] rounded-[50px] overflow-y-hidden hover:overflow-y-visible "
+              className="flex flex-col justify-end items-center lg:gap-10 md:gap-8 gap-4 w-full bg-cover bg-no-repeat lg:h-[500px] md:h-[400px] h-[300px] rounded-[50px] overflow-y-hidden hover:overflow-y-visible "
               style={{ backgroundImage: `url(${service.pic})` }}
               onClick={() => navigate("/services")}
             >
