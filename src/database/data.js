@@ -2,6 +2,8 @@
 import ai from "../assets/ai.png";
 import trans from "../assets/trans.png";
 import excel from "../assets/excel.png";
+import b1 from '../assets/b1.png';
+import amp from '../assets/amp.png';
 
 export const navItems = [
   { value: "Home", path: "/" },
@@ -25,6 +27,19 @@ export const services = [
   {
     name: "Excellent customer support",
     pic: excel,
+    text: "ieajsfowe eijfk wea oawe v oie oigrejd owrejnij gieiji eirh igerh iwgwo hreih ",
+  },
+];
+
+export const blogs = [
+  {
+    name: "Empowering The Paralyzed",
+    pic: b1,
+    text: "ieajsfowe eijfk wea oawe v oie oigrejd owrejnij gieiji eirh igerh iwgwo hreih ",
+  },
+  {
+    name: "Silent Sepectator",
+    pic: amp,
     text: "ieajsfowe eijfk wea oawe v oie oigrejd owrejnij gieiji eirh igerh iwgwo hreih ",
   },
 ];

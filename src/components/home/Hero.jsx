@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="bg-[#E0F4FF] min-h-[80vh] w-full lg:px-20 px-10 flex flex-col justify-start items-start py-10">
-      <div className="flex flex-col justify-center items-center text-center lg:gap-10 md:gap-8 gap-4 w-full">
+    <div className="bg-[#E0F4FF] min-h-[80vh] w-full lg:px-20 px-10 flex flex-col justify-start items-start py-10 lg:py-20">
+      <div className="flex flex-col justify-center items-center text-center lg:gap-12 md:gap-12 gap-8 w-full">
         <h1 className="lg:text-6xl md:text-4xl text-2xl font-bold">
           inventore commodi neque dolorem
         </h1>
