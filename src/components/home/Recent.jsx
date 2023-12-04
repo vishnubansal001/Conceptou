@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Recent = () => {
   const navigate = useNavigate();
   return (
-    <div className="bg-[#E0F4FF] min-h-[80vh] w-full lg:px-20 px-10 flex flex-col justify-start items-start lg-10 lg:pb-20 overflow-hidden">
+    <div className="bg-[#E0F4FF] min-h-[80vh] w-full lg:px-20 px-10 flex flex-col justify-start items-start pb-10 lg:pb-20 overflow-hidden">
       <div className="flex flex-col justify-center items-center text-center lg:gap-14 md:gap-12 gap-8 w-full">
         <h1 className="lg:text-6xl md:text-4xl text-2xl font-bold">Recent Blogs</h1>
         <div className="flex lg:flex-row flex-col justify-around items-center gap-14 w-full px-5">
