@@ -1,9 +1,10 @@
+import { ComingSoon } from "../components/services"
 
 const Services = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <ComingSoon />
+    </>
   )
 }
 
