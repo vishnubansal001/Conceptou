@@ -88,7 +88,7 @@ const Navbar = () => {
           transition={{ duration: 0.3 }}
           className={`${
             isSidebarOpen
-              ? "h-screen w-screen backdrop-blur-sm absolute top-0 left-0"
+              ? "h-full w-screen backdrop-blur-sm absolute top-0 left-0 z-[90]"
               : ""
           }`}
         ></motion.div>
@@ -96,7 +96,7 @@ const Navbar = () => {
           initial={{ x: "100%" }}
           animate={{ x: isSidebarOpen ? "0%" : "100%" }}
           transition={{ duration: 0.3 }}
-          className={`fixed top-0 right-0 h-screen w-64 bg-[#BBE2FF]`}
+          className={`fixed top-0 right-0 h-screen w-64 bg-[#BBE2FF] z-[1000]`}
         >
           <button
             onClick={toggleSidebar}
