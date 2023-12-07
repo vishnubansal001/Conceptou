@@ -1,9 +1,11 @@
+import { BlogsH, Series } from "../components/blog"
 
 const Blogs = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <BlogsH />
+      <Series />
+    </>
   )
 }
 

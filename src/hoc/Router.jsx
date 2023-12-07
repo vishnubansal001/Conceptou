@@ -18,7 +18,7 @@ const Router = () => {
       <Route exact path="/services" element={<Services />} />
       <Route exact path="/about-us" element={<About />} />
       <Route exact path="/blog-series/:id" element={<Series />} />
-      <Route exact path="/blog/:id" element={<SingleBlog />} />
+      <Route exact path="/blog-series/:id/:blogId" element={<SingleBlog />} />
     </Routes>
   );
 };
