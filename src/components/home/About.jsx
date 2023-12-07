@@ -1,12 +1,33 @@
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+    AOS.init({
+      duration: 1300,
+      once: true,
+    });
+  }, []);
   return (
     <div className="bg-[#E0F4FF] min-h-[60vh] w-full lg:px-20 px-10 flex flex-col justify-start items-start pb-10 lg:pb-20">
       <div className="flex flex-col justify-center items-center text-center lg:gap-12 md:gap-12 gap-8 w-full">
-        <h1 className="lg:text-6xl md:text-4xl text-2xl font-bold">About Us</h1>
-        <p className="lg:text-3xl md:text-2xl sm:text-lg text-base lg:w-[80%] w-auto">
+        <h1
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+          className="lg:text-6xl md:text-4xl text-2xl font-bold"
+        >
+          About Us
+        </h1>
+        <p
+          data-aos="fade-in"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+          className="lg:text-3xl md:text-2xl sm:text-lg text-base lg:w-[80%] w-auto"
+        >
           inventore commodi neque dolorem laborum dicta veniam quam asperiores.
           Iure natus vitae tempore, inventore labore animi rerum distinctio
           hicnderit dolore. Distinctio rerum ad, veritatis odit similique
