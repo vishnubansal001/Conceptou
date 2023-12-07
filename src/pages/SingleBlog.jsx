@@ -1,8 +1,10 @@
+import { HeroSection } from "../components/singleBlog"
+
 const SingleBlog = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <HeroSection />
+    </>
   )
 }
 
